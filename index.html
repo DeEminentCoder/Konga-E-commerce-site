@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+                                                       <!-- MODAL -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Signup</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Full Name:</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="ex: Simeon Kenny Simozy">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="ex: Simeonkenny66@gmail.com">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Go to Log in ▶</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Log in</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Full Name:</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="ex: Simeon Kenny Simozy">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="ex: Simeonkenny66@gmail.com">
+                </div>
+            </div>                  
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">◀ Back to Signup</button>
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Log in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <button class="btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" style="position: absolute; padding: ; z-index: 100; background-color: rgba(0, 0, 0, 0.525); color: #fff;"><span class="display-6">⚠ <br> Signup/Login <br> to continue</span></button> -->
+      
+      
+    <center>
+        <div id="topNav" class="row shadow-sm py-3 justify-content-center">
+            <div class="col-12 col-md-6 ps-3">
+                <span class=""><strong>Free Delivery </strong><span>On Order From <strong>N4,599 & Above</strong></span></span>
+            </div>
+            <div class="col-12 col-md-2">
+                <button class="py-2 px-5 border"><a href="">Shop Now</a></button>
+            </div>
+            <div class="col-12 col-md-4"><span>Location; <strong>Lagos, Abuja, Portharcort</strong></span></div>
+        </div>
+        <div class=""><img src="images/ads.webp" alt="" width="100%"></div>
+        <div class=""><img src="images/konga.webp" alt="" width="100%"></div>
+    </center>
+    
+    <center>
+        <div id="secondNav" class="row shadow-sm py- justify-content-center ">
+            <div class="col-4 col-sm-4 col-md-2"><a href=""><img src="bootstrap-icons-1.10.3/airplane.svg" alt=""> TRAVEL</a></div>
+            <div class="col-4 col-sm-4 col-md-2"><a href=""><img src="bootstrap-icons-1.10.3/egg-fried.svg" alt=""> FOOD</a></div>
+            <div class="col-4 col-sm-4 col-md-2"><a href=""><img src="bootstrap-icons-1.10.3/gender-female.svg" alt=""> FASHION</a></div>
+            <div class="col-4 col-sm-4 col-md-2"><a href=""><img src="bootstrap-icons-1.10.3/cup-hot.svg" alt=""> DRINKS</a></div>
+            <div class="col-4 col-sm-4 col-md-2"><a href=""><img src="bootstrap-icons-1.10.3/phone.svg" alt=""> DEVICES</a></div>
+            <div class="col-4 col-sm-4 col-md-2"><a href=""><img src="bootstrap-icons-1.10.3/basket3.svg" alt=""> GROCERIES</a></div>
+        </div>
+    </center>
+
+    <div id="stickyNav" style="position: sticky;top: -50%;z-index : 99;">
+    <center>
+        <div id="thirdNav" class="row shadow shadow px-2 w-100">
+            <a href=""></a><div id="logo" class="col-4 col-sm-4 col-md-2"><img src="Images/logo1.png" width="120px" alt=""></div></a>
+            <div id="hide1" class="col-4 col-sm-4 col-md-1"><a href="">Store</a></div>
+            <div id="hide2" class="col-4 col-sm-4 col-md-2"><a href="">Sell on Simozy</a></div>
+            <div id="thirdnavInp" class="col-12 col-sm-12 col-md-4 mt-2">
+              <form class="example" action="">
+                <input class="form-control" type="text" placeholder="Search for products..." name="search">
+                <button class="bg-warning" type="submit"><img src="bootstrap-icons-1.10.3/search.svg" alt=""><i class="fa fa-search"></i></button>
+              </form></div>
+            <div id="hide3" class="col-4 col-sm-4 col-md-1"><a href=""><img src="bootstrap-icons-1.10.3/basket3.svg" alt=""> Login</a></div>
+            <div id="replace1" class="col-4 col-sm-4 col-md-1"><a href=""  data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Signup</a></div>
+            <div id="replace2" class="col-4 col-sm-4 col-md-1 "><a href=""><img src="bootstrap-icons-1.10.3/cart3.svg" alt=""> Cart</a></div>
+        </div>
+    </center>
+  </div>
+
+
+    <center>
+      <div id="fourthNav" class="row py- justify-content-center">
+          <div class="col-6 col-sm-6 col-md-2 dropdown">
+            <a href="" class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">All categories <img src="bootstrap-icons-1.10.3/list.svg" alt=""></a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-2"> <a href="">Computers and Accessories</a></div>
+          <div class="col-6 col-sm-6 col-md-2"> <a href="">Phones and Tablets</a></div>
+          <div class="col-6 col-sm-6 col-md-2"> <a href="">Electronics</a></div>
+          <div class="col-6 col-sm-6 col-md-2"> <a href="">Baby, Kids and Toys</a></div>
+          <div class="col-6 col-sm-6 col-md-2"> <a href="">Other categories</a></div>
+      </div>
+      </center>
+<!-- 
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item active" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div> -->
+
+    <center>
+        <div class="row container-fluid  py-3 px-2">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-8 mb-3"> 
+              <div id="carouselExampleIndicators" class="carousel slide mb-" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-lightlight" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-light" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-light" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="bg-light" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="bg-light" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="bg-light" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="bg-light" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner" style="width: 100%;">
+                    <div class="carousel-item active"><img src="images/carousel4.jpg" alt="" width="100%" height="px"></div>
+                    <div class="carousel-item"><img src="images/carousel2.jpg" alt="" width="100%" height="px"></div>
+                    <div class="carousel-item "><img src="images/carousel3.webp" alt="" width="100%" height="px"></div>
+                    <div class="carousel-item "><img src="images/carousel1.webp" alt="" width="100%" height="px"></div>
+                    <div class="carousel-item "><img src="images/carousel5.jpg" alt="" width="100%" height="px"></div>
+                    <div class="carousel-item "><img src="images/carousel6.jpg" alt="" width="100%" height="px"></div>
+                    <div class="carousel-item "><img src="images/carousel7.jpg" alt="" width="100%" height="px"></div>
+                    <button class="carousel-control-prev ms-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next me-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-sm-12 col-lg-4 row container-fluid ms-2">
+                <div id="boxes1" class="col-3 col-md-3 col-sm-3 col-lg-6 mb-2"><a href=""><img src="images/carouselads1.webp" alt="" width="85%"></a></div>
+                <div id="boxes1" class="col-3 col-md-3 col-sm-3 col-lg-6 mb-2"><a href=""><img src="images/carouselads2.webp" alt="" width="85%"></a></div>
+                <div id="boxes1" class="col-3 col-md-3 col-sm-3 col-lg-6"><a href=""><img src="images/carouselads3.jpg" alt="" width="85%"></a></div>
+                <div id="boxes1" class="col-3 col-md-3 col-sm-3 col-lg-6"><a href=""><img src="images/carouselads4.webp" alt="" width="85%"></a></div>
+            </div>
+        </div>
+</center>    
+
+<center>
+  <div id="todaysDeal" class=" mx-5 mb-2 shadow text-light">
+    <h3>Today's Deals</h3>
+  </div>
+  <div id="recommend" class="row container-fluid justify-content-center">
+    <div id="recommend-boxes" class="col-6 col-md-4 col-sm-4 col-lg-4 row justify-content-center align-items-center mb-5">
+      <div id="recommend-img" class="col"><img src="images/im[] (4).webp" alt="" width="80px"></div>
+      <div id="recommend-details" class="col">
+        <span id="recommend-productName">Samsung BlackHole S9</span><br>
+        <hr width="100px" class="mb-0">
+        <span id="recommend-price">$19.99 <span id="crossed-price">$59.00</span></span><br>
+        <span id="youSave">You save $19.99</span>
+      </div>
+    </div>
+    <div id="recommend-boxes" class="col-6 col-md-4 col-sm-4 col-lg-4 row justify-content-center align-items-center mb-5">
+      <div id="recommend-img" class="col"><img src="images/im[] (6).webp" alt="" width="80px"></div>
+      <div id="recommend-details" class="col">
+        <span id="recommend-productName">Samsung BlackHole S9</span><br>
+        <hr width="100px" class="mb-0">
+        <span id="recommend-price">$19.99 <span id="crossed-price">$59.00</span></span><br>
+        <span id="youSave">You save $19.99</span>
+      </div>
+    </div>
+    <div id="recommend-boxes" class="col-6 col-md-4 col-sm-4 col-lg-4 row justify-content-center align-items-center mb-5">
+      <div id="recommend-img" class="col"><img src="images/im[] (5).webp" alt="" width="80px"></div>
+      <div id="recommend-details" class="col">
+        <span id="recommend-productName">Samsung BlackHole S9</span><br>
+        <hr width="100px" class="mb-0">
+        <span id="recommend-price">$19.99 <span id="crossed-price">$59.00</span></span><br>
+        <span id="youSave">You save $19.99</span>
+      </div>
+    </div>
+    <div id="recommend-boxes" class="col-6 col-md-4 col-sm-4 col-lg-4 row justify-content-center align-items-center mb-5">
+      <div id="recommend-img" class="col"><img src="images/im[] (1).webp" alt="" width="80px"></div>
+      <div id="recommend-details" class="col">
+        <span id="recommend-productName">Samsung BlackHole S9</span><br>
+        <hr width="100px" class="mb-0">
+        <span id="recommend-price">$19.99 <span id="crossed-price">$59.00</span></span><br>
+        <span id="youSave">You save $19.99</span>
+      </div>
+    </div>
+    <div id="recommend-boxes" class="col-6 col-md-4 col-sm-4 col-lg-4 row justify-content-center align-items-center mb-5">
+      <div id="recommend-img" class="col"><img src="images/im[] (2).webp" alt="" width="80px"></div>
+      <div id="recommend-details" class="col">
+        <span id="recommend-productName">Samsung BlackHole S9</span><br>
+        <hr width="100px" class="mb-0">
+        <span id="recommend-price">$19.99 <span id="crossed-price">$59.00</span></span><br>
+        <span id="youSave">You save $19.99</span>
+      </div>
+    </div>
+    <div id="recommend-boxes" class="col-6 col-md-4 col-sm-4 col-lg-4 row justify-content-center align-items-center mb-5">
+      <div id="recommend-img" class="col"><img src="images/im[] (3).webp" alt="" width="80px"></div>
+      <div id="recommend-details" class="col">
+        <span id="recommend-productName">Samsung BlackHole S9</span><br>
+        <hr width="100px" class="mb-0">
+        <span id="recommend-price">$19.99 <span id="crossed-price">$59.00</span></span><br>
+        <span id="youSave">You save $19.99</span>
+      </div>
+    </div>
+  </div>
+  
+</center>
+
+<center>
+  <div id="todaysDeal" class=" mx-5 mb-2 shadow text-light">
+    <h3>Today's Deals</h3>
+  </div>
+  <div class="row container-fluid mb-1 justify-content-center">
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/inspiredby3.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/im[] (26).webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/recommended2.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/recommended5.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+  </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/inspiredby7.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/inspiredby6.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/inspiredby5.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="col-4 col-md-3 col-sm-3 col-lg-3">
+      <div class="card">
+        <img src="images/inspiredby4.webp" alt="" style="width:100%;">
+        <h6 style="font-weight: 600;">Spice Raks</h6>
+        <p class="price">$19.99 <span style="text-decoration:line-through; font-size: 0.7em; color: #808080;">$29.99</span></p>
+        <!-- <p class="details">You save $10.00</p> -->
+        <button>Add to Cart</button>
+      </div>
+  </div>
+  </div>
+</center>
+
+<center>
+  <div class="mb-5 mx-5">
+    <img src="images/im[] (10).webp" alt="" width="100%" style="border-radius: 5px;">
+  </div>
+</center>
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Projects</a>
+  <a href="#" id="contact">Contact</a>
+</div>
+
+  
+
+      
+    <!-- <div id="customerCare" class="text-light row  px-4 py-2">
+        <div class="col-md-2 col-sm-6 col-7"><img src="bootstrap-icons-1.10.3/envelope.svg" alt="" width="30px"> EMAIL SUPPORT <br><h6>simozydesign@gmail.com</h6></div>
+        <div class="col-md-3 col-sm-6 col-5"><img src="bootstrap-icons-1.10.3/phone-flip.svg" alt="" width="30px"> PHONE SUPPORT <br><h6>08103739480, 0810101010101</h6></div>
+        <div class="col-md-3 col-sm-6 col-6"><img src="bootstrap-icons-1.10.3/whatsapp.svg" alt="" width="30px"> WHATSAPP <br><h6>0910101010101, 0920202030404</h6></div>
+        <div class="col-md-3 col-sm-16 col-8"><input class="form-control w-100 p-2" placeholder="Email Address" type="text"></div>
+        <div class="col-md-1 col-sm-2 col-4"> <button class="btn btn-success">Subscribe</button></div>
+    </div>
+    <div id="footer" class="bg-black">
+      <div id="title" class="text-light row px-4 py-3">
+        <div class="col-2">ABOUT US</div>
+        <div class="col-2">PAYMENT</div>
+        <div class="col-2">PAYMENT</div>
+        <div class="col-4">DOWNLOAD CONNECT WITH US</div>
+      </div>
+
+      <div id="subTitle" class="row px-4 py-3">
+        <div class="col-2">Contact US </div>
+        <div class="col-2">SimozyPay</div>
+        <div class="col-2">Site Map</div>
+        <div class="col-4"><img src="images/applelogo.png" alt="" width="150px"> <img src="images/googleplaylogo.png" alt="" width="150px"></div>
+
+        <div class="col-2 col-12" style="margin-top: -20px;">Contact US </div>
+        <div class="col-2 col-12" style="margin-top: -20px;">SimozyPay</div>
+        <div class="col-2 col-12" style="margin-top: -20px;">Site Map</div>
+        <div class="col-4 col-12"><h6> CONNECT WITH US</h6></div>
+
+        <div class="col-2" style="margin-top: -20px;">Contact US </div>
+        <div class="col-2" style="margin-top: -20px;">SimozyPay</div>
+        <div class="col-2" style="margin-top: -20px;;">Site Map</div>
+        <div class="col-4" style="margin-top: -6px;">
+          <img class="bg-white p-1" src="bootstrap-icons-1.10.3/facebook.svg" alt="" width="30px" style="margin-left: 15px;">
+          <img class="bg-white p-1" src="bootstrap-icons-1.10.3/twitter.svg" alt="" width="30px" style="margin-left: 15px;">
+          <img class="bg-white p-1" src="bootstrap-icons-1.10.3/instagram.svg" alt="" width="30px" style="margin-left: 15px;">
+          <img class="bg-white p-1" src="bootstrap-icons-1.10.3/youtube.svg" alt="" width="30px" style="margin-left: 15px;">
+        </div>
+      </div> -->
+
+        
+
+
+    <script>
+      window.onscroll = function() {
+        landPageScroll()
+      }
+      var hide1 = document.getElementById("hide1").innerHTML;
+      var hide2 = document.getElementById("hide2").innerHTML;
+      var thirdNavJs = document.getElementById("thirdNav").innerHTML;
+      const landPageScroll=()=> {
+        if (document.body.scrollTop >310 || document.documentElement.scrollTop > 310) {
+          stickyNav.style.top = "0%"
+          // document.getElementById("thirdNav").style.height = "135px";
+          document.getElementById("thirdNav").style.backgroundColor = "#000000f4";
+          document.getElementById("thirdNav").style.alignItems ="center"
+          // document.getElementById("thirdNav").style.columnGap = "50px";
+          document.getElementById("thirdNav").style.borderBottom = "#FC9EBE 1px solid";
+          document.getElementById("replace1").style.visibility = "hidden";
+          document.getElementById("replace2").style.visibility = "hidden";
+          document.getElementById("hide3").style.visibility ="hidden";
+          // document.getElementById("hide1").style.fontSize ="0.6em";
+          document.getElementById("hide2").innerHTML = document.getElementById("replace2").innerHTML;
+          document.getElementById("hide1").innerHTML = document.getElementById("replace1").innerHTML;
+        } else {
+          // document.getElementById("thirdNav").style.backgroundColor = "#FC9EBE";
+          // document.getElementById("thirdNav").style.borderBottom = "none";
+          document.getElementById("replace1").style.visibility = "visible";
+          document.getElementById("replace2").style.visibility = "visible";
+          document.getElementById("hide3").style.visibility = "visible";
+          document.getElementById("hide1").innerHTML = hide1;
+          document.getElementById("hide2").innerHTML = hide2;
+          document.getElementById("thirdNav").style = thirdNavJs;
+        }
+      }
+
+
+    </script>
+</body>
+</html>
